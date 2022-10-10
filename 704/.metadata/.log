@@ -1,0 +1,82 @@
+!SESSION 2022-10-10 19:00:14.589 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_NZ
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-10 19:01:46.152
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-10 19:01:46.347
+!MESSAGE Log4j initialized with config file C:\Users\liamp\OneDrive\Desktop\Uni\704\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-10 19:02:11.664
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-10 19:03:16.891
+!MESSAGE Indexed 'COMSYS704-2022' (55 sources, 147 headers) in 9.2 sec: 15,766 declarations; 104,570 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0017%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2022-10-11 01:59:04.712
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+load C:\\Users\\liamp\\OneDrive\\Desktop\\Uni\\704\\COMSYS704_2022\\COMSYS704_2022\\Projects\\STM32L476JG-SensorTile\\Applications\\ALLMEMS1\\STM32CubeIDE\\Debug\\STM32L476JG-SensorTile_ALLMEMS1.elf 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+load C:\\Users\\liamp\\OneDrive\\Desktop\\Uni\\704\\COMSYS704_2022\\COMSYS704_2022\\Projects\\STM32L476JG-SensorTile\\Applications\\ALLMEMS1\\STM32CubeIDE\\Debug\\STM32L476JG-SensorTile_ALLMEMS1.elf 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:326)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Failed to execute MI command:
+load C:\\Users\\liamp\\OneDrive\\Desktop\\Uni\\704\\COMSYS704_2022\\COMSYS704_2022\\Projects\\STM32L476JG-SensorTile\\Applications\\ALLMEMS1\\STM32CubeIDE\\Debug\\STM32L476JG-SensorTile_ALLMEMS1.elf 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+java.lang.Exception: Remote communication error.  Target disconnected.: Not a directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10004 2022-10-11 01:59:04.982
+!MESSAGE Failed to execute MI command:
+load C:\\Users\\liamp\\OneDrive\\Desktop\\Uni\\704\\COMSYS704_2022\\COMSYS704_2022\\Projects\\STM32L476JG-SensorTile\\Applications\\ALLMEMS1\\STM32CubeIDE\\Debug\\STM32L476JG-SensorTile_ALLMEMS1.elf 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+!SUBENTRY 2 org.eclipse.cdt.dsf.gdb 4 10004 2022-10-11 01:59:04.982
+!MESSAGE Failed to execute MI command:
+load C:\\Users\\liamp\\OneDrive\\Desktop\\Uni\\704\\COMSYS704_2022\\COMSYS704_2022\\Projects\\STM32L476JG-SensorTile\\Applications\\ALLMEMS1\\STM32CubeIDE\\Debug\\STM32L476JG-SensorTile_ALLMEMS1.elf 
+
+Error message from debugger back end:
+Remote communication error.  Target disconnected.: Not a directory.
+!STACK 0
+java.lang.Exception: Remote communication error.  Target disconnected.: Not a directory.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2022-10-11 02:09:06.999 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_NZ
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-11 02:13:36.604
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-11 02:13:36.787
+!MESSAGE Log4j initialized with config file C:\Users\liamp\OneDrive\Desktop\Uni\704\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-11 02:14:06.916
+!MESSAGE Started RMI Server, listening on port 41337

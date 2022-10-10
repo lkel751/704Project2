@@ -1,0 +1,64 @@
+02:00:02 **** Incremental Build of configuration Debug for project COMSYS704-2022 ****
+make all 
+arm-none-eabi-size   STM32L476JG-SensorTile_ALLMEMS1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40688	    520	  22352	  63560	   f848	STM32L476JG-SensorTile_ALLMEMS1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O binary "STM32L476JG-SensorTile_ALLMEMS1.elf" "STM32L476JG-SensorTile_ALLMEMS1.bin"
+ 
+02:00:09 **** Incremental Build of configuration Debug for project COMSYS704-2022 ****
+make all 
+arm-none-eabi-size   STM32L476JG-SensorTile_ALLMEMS1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40688	    520	  22352	  63560	   f848	STM32L476JG-SensorTile_ALLMEMS1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O binary "STM32L476JG-SensorTile_ALLMEMS1.elf" "STM32L476JG-SensorTile_ALLMEMS1.bin"
+ 
+02:02:02 **** Incremental Build of configuration Debug for project COMSYS704-2022 ****
+make all 
+arm-none-eabi-size   STM32L476JG-SensorTile_ALLMEMS1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40688	    520	  22352	  63560	   f848	STM32L476JG-SensorTile_ALLMEMS1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O binary "STM32L476JG-SensorTile_ALLMEMS1.elf" "STM32L476JG-SensorTile_ALLMEMS1.bin"
+ 
+02:14:13 **** Incremental Build of configuration Debug for project COMSYS704-2022 ****
+make all 
+arm-none-eabi-size   STM32L476JG-SensorTile_ALLMEMS1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40688	    520	  22352	  63560	   f848	STM32L476JG-SensorTile_ALLMEMS1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O binary "STM32L476JG-SensorTile_ALLMEMS1.elf" "STM32L476JG-SensorTile_ALLMEMS1.bin"
+ 
+02:16:32 **** Incremental Build of configuration Debug for project COMSYS704-2022 ****
+make all 
+arm-none-eabi-size   STM32L476JG-SensorTile_ALLMEMS1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40688	    520	  22352	  63560	   f848	STM32L476JG-SensorTile_ALLMEMS1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy -O binary "STM32L476JG-SensorTile_ALLMEMS1.elf" "STM32L476JG-SensorTile_ALLMEMS1.bin"
+ 
+02:19:12 **** Incremental Build of configuration Debug for project COMSYS704-2022 ****
+make all 
+arm-none-eabi-gcc "C:/Users/liamp/OneDrive/Desktop/Uni/704/COMSYS704_2022/COMSYS704_2022/Projects/STM32L476JG-SensorTile/Applications/ALLMEMS1/Src/main.c" -mcpu=cortex-m4 -std=c99 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -DUSE_STM32L4XX_NUCLEO -DSTM32_SENSORTILE -c -I../../Inc -I../../../../../../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc -I../../../../../../Drivers/BSP/SensorTile -I../../../../../../Drivers/CMSIS/Include -I../../../../../../Drivers/BSP/Components/Common -I../../../../../../Middlewares/ST/BlueNRG-MS/includes -I../../../../../../Middlewares/ST/BlueNRG-MS/utils -I../../../../../../Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -Og -ffunction-sections -Wall -fstack-usage -MMD -MP -MF"Application/User/main.d" -MT"Application/User/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -o "Application/User/main.o"
+C:/Users/liamp/OneDrive/Desktop/Uni/704/COMSYS704_2022/COMSYS704_2022/Projects/STM32L476JG-SensorTile/Applications/ALLMEMS1/Src/main.c:1122:13: warning: 'DeinitTimers' defined but not used [-Wunused-function]
+ 1122 | static void DeinitTimers(void)
+      |             ^~~~~~~~~~~~
+arm-none-eabi-g++ -o "STM32L476JG-SensorTile_ALLMEMS1.elf" @"objects.list"   -mcpu=cortex-m4 -T"../STM32L476RGTX.ld" -Wl,-Map="STM32L476JG-SensorTile_ALLMEMS1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32L476JG-SensorTile_ALLMEMS1.elf
+ 
+arm-none-eabi-size   STM32L476JG-SensorTile_ALLMEMS1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40616	    520	  22352	  63488	   f800	STM32L476JG-SensorTile_ALLMEMS1.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S  STM32L476JG-SensorTile_ALLMEMS1.elf  > "STM32L476JG-SensorTile_ALLMEMS1.list"
+Finished building: STM32L476JG-SensorTile_ALLMEMS1.list
+ 
+arm-none-eabi-objcopy -O binary "STM32L476JG-SensorTile_ALLMEMS1.elf" "STM32L476JG-SensorTile_ALLMEMS1.bin"
+ 
